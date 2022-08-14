@@ -9,10 +9,12 @@ export default {
 		selectOptions: {
 			type: Array,
 			default: () => [
-				'Web Application',
-				'Mobile Application',
-				'UI/UX Design',
-				'Branding & Anim',
+				'Yasser',
+				'Pieter',
+				'Jan',
+				'Dua',
+				'Liza',
+				'Saeed'
 			],
 		},
 	},
@@ -38,7 +40,7 @@ export default {
 				dark:text-ternary-light
 			"
 	>
-		<option value class="text-sm sm:text-md">All Projects</option>
+		<option value class="text-sm sm:text-md">All Meals</option>
 		<option
 			v-for="option in selectOptions"
 			:key="option"

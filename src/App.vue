@@ -3,11 +3,13 @@ import feather from 'feather-icons';
 import AppHeader from './components/shared/AppHeader';
 import AppFooter from './components/shared/AppFooter';
 
+
 export default {
 	components: {
+	
 		AppHeader,
 		AppFooter,
-	},
+			},
 	data: () => {
 		return {
 			appTheme: localStorage.getItem('theme'),
@@ -26,6 +28,7 @@ export default {
 	<div :class="appTheme" class="pt-0.5">
 		<!-- App header -->
 		<AppHeader />
+
 
 		<!-- Render active component contents with vue transition -->
 		<transition name="fade" mode="out-in">

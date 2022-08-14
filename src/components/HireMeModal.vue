@@ -44,7 +44,7 @@ export default {
 								<h5
 									class=" text-primary-dark dark:text-primary-light text-xl"
 								>
-									What project are you looking for?
+									Become a chef and make somthing amazing!
 								</h5>
 								<button
 									class="px-4 text-primary-dark dark:text-primary-light"
@@ -77,23 +77,7 @@ export default {
 											aria-label="Email"
 										/>
 									</div>
-									<div class="mt-6">
-										<select
-											class="w-full px-5 py-2 border-1 border-gray-200 dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
-											id="subject"
-											name="subject"
-											type="text"
-											required=""
-											aria-label="Project Category"
-										>
-											<option
-												v-for="category in categories"
-												:key="category.id"
-												:value="category.value"
-												>{{ category.name }}</option
-											>
-										</select>
-									</div>
+								
 
 									<div class="mt-6">
 										<textarea
@@ -103,7 +87,7 @@ export default {
 											cols="14"
 											rows="6"
 											aria-label="Details"
-											placeholder="Project description"
+											placeholder="Description"
 										></textarea>
 									</div>
 
@@ -115,8 +99,8 @@ export default {
 											py-2
 											sm:py-2.5
 											text-white
-											bg-indigo-500
-											hover:bg-indigo-600
+											bg-red-400
+											hover:bg-red-600
 											rounded-md
 											focus:ring-1 focus:ring-indigo-900 duration-500"
 											type="submit"

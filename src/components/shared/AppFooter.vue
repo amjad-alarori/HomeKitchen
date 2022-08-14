@@ -7,28 +7,17 @@ export default {
 		return {
 			socials: [
 				{
-					id: 1,
-					name: 'GitHub',
-					icon: 'github',
-					url: 'https://github.com/realstoman',
-				},
-				{
 					id: 2,
 					name: 'Twitter',
 					icon: 'twitter',
-					url: 'https://twitter.com/realstoman',
+					url: '',
 				},
-				{
-					id: 3,
-					name: 'Medium',
-					icon: 'book',
-					url: 'https://stoman.medium.com',
-				},
+		
 				{
 					id: 4,
 					name: 'Instagram',
 					icon: 'instagram',
-					url: 'https://instagram.com/realstoman',
+					url: '',
 				},
 			],
 		};
@@ -54,7 +43,7 @@ export default {
 				<p
 					class="font-general-semibold text-3xl sm:text-4xl font-semibold text-primary-dark dark:text-primary-light mb-5"
 				>
-					Follow me
+					Follow us!
 				</p>
 				<ul class="flex gap-4 sm:gap-8">
 					<a
